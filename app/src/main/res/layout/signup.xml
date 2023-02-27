@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/kkk"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/osss"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+    <EditText
+        android:id="@+id/u2"
+        android:layout_width="249dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="216dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="151dp"
+        android:textColor="@color/logoback"
+
+        android:hint="Password"
+        android:textColorHint="@color/colorTextTitle"
+        android:textStyle="bold"
+        android:inputType="numberPassword"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.61"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/u3"
+        android:layout_width="250dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="304dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="230dp"
+        android:textColorHint="@color/colorTextTitle"
+        android:hint=" Confirm password"
+        android:textColor="@color/logoback"
+        android:inputType="numberPassword"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.603"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="176dp"
+        android:layout_marginBottom="268dp"
+
+        android:textColorHint="@color/colorBackground"
+        android:text="Submit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/u1"
+        android:layout_width="229dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="54dp"
+        android:layout_marginEnd="230dp"
+        android:layout_marginBottom="580dp"
+        android:textColor="@color/logoback"
+        android:textColorHint="@color/colorTextTitle"
+        android:textStyle="bold"
+
+        android:hint="Username"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/kkk"
+        app:layout_constraintHorizontal_bias="0.009"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kkk"
+        app:layout_constraintVertical_bias="1.0" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
